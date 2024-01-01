@@ -6,10 +6,14 @@ body {
 }
 
 header {
-    background-color: #BB8588;
+    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1em 0;
+}
+
+header h1 {
+    color: #fff; /* Set the text color specifically for h1 within the header */
 }
 
 nav ul {
