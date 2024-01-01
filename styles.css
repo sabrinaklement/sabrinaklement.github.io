@@ -16,6 +16,10 @@ header h1 {
     color: #fff; /* Set the text color specifically for h1 within the header */
 }
 
+header p {
+    color: #fff;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
