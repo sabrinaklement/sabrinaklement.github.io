@@ -40,7 +40,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Centered Image */
+/* Centered Image 
 .centered-image {
     text-align: center;
     margin: 20px 0;
@@ -50,6 +50,7 @@ nav a:hover {
     max-width: 60%;
     height: auto;
 }
+*/
 
 section {
     max-width: 800px;
@@ -58,6 +59,17 @@ section {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Use flexbox */
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px; /* Add margin to separate image and text */
+}
+
+section div {
+    flex: 1; /* Allow the text to take up remaining space */
 }
 
 
