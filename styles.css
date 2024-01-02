@@ -40,6 +40,17 @@ nav a:hover {
     text-decoration: underline;
 }
 
+/* Centered Image */
+.centered-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.centered-image img {
+    max-width: 100%;
+    height: auto;
+}
+
 section {
     max-width: 800px;
     margin: 20px auto;
